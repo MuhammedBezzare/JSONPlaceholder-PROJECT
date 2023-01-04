@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API || JSON-PH</title>
+    <!-- CSS Normalize -->
+    <link rel="stylesheet" href="./assets/normalize.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <!-- <div class="error">error</div> -->
+      <div class="container">
+        <div class="logo">
+          <img src="./assets/images/tarmiz_logo.png" alt="Tarmiz logo" />
+        </div>
+        <div class="landing-text">
+          <h1>
+            API PROJECT SEARCH, BROWS, ADD, DELETE, UPDATE ALL IN ONE PLACE
+          </h1>
+        </div>
+        <div class="sections-btn">
+          <button class="brows -btn active">BROWS</button>
+          <button class="add -btn">ADD</button>
+          <button class="delete -btn">DELETE</button>
+          <button class="update -btn">UPDATE</button>
+        </div>
+        <div class="content">
+          <div class="brows-content">
+            <div class="users-area">
+              <!-- <span class="authors">The Authors: </span> -->
+            </div>
+            <div date-suer-name="" class="post-area">
+              <!-- <span class="author-name">Post</span> -->
+            </div>
+          </div>
+          <div class="add-content">
+            <div class="form">
+              <input type="text" id="post-title" placeholder="Post Title" />
+              <input type="text" id="post-body" placeholder="Post Body" />
+              <button class="add-btn">Add</button>
+            </div>
+          </div>
+          <div class="delete-content">
+            <div class="form">
+              <input type="number" id="post-ID" placeholder="Post ID" />
+              <button class="delete-btn">Delete</button>
+            </div>
+          </div>
+          <div class="update-content">
+            <div class="form">
+              <div class="note">
+                <div class="note-signe">!</div>
+                <span>
+                  Note: you are only able to entire the inter post not just part
+                  of it</span
+                >
+              </div>
+              <input type="number" id="post-update-ID" placeholder="Post ID" />
+              <input
+                type="text"
+                id="post-update-title"
+                placeholder="Post Title"
+              />
+              <input
+                type="text"
+                id="post-update-body"
+                placeholder="Post Body"
+              />
+
+              <button class="update-btn">Update</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
